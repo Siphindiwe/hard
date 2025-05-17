@@ -188,3 +188,15 @@ function showFinalScore() {
   }
   quizContainer.appendChild(restartBtn)
 }
+
+categoryCards.forEach((card) => {
+  card.addEventListener('click', () => {
+    categoryCards.forEach((c) => c.classList.remove('selected'))
+
+    card.classList.add('selected')
+
+    selectedTopic = card.dataset.topic
+
+    startBtn.disabled = false
+  })
+})
