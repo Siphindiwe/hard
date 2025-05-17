@@ -1,0 +1,1473 @@
+{
+  "Web Development": [
+    {
+      "id": "wd_q1",
+      "question": "What does HTML stand for?",
+      "choices": [
+        "HyperText Markup Language",
+        "HighText Machine Language",
+        "HyperText Machine Language",
+        "HyperTransfer Markup Language"
+      ],
+      "answer": "HyperText Markup Language"
+    },
+    {
+      "id": "wd_q2",
+      "question": "Which CSS property is used to change the text color of an element?",
+      "choices": ["font-color", "text-color", "color", "background-color"],
+      "answer": "color"
+    },
+    {
+      "id": "wd_q3",
+      "question": "What is the purpose of JavaScript in web development?",
+      "choices": [
+        "To style web pages",
+        "To structure web content",
+        "To add interactivity to web pages",
+        "To define web server logic"
+      ],
+      "answer": "To add interactivity to web pages"
+    },
+    {
+      "id": "wd_q4",
+      "question": "Which HTML tag is used to define an unordered list?",
+      "choices": ["<ol>", "<li>", "<ul>", "<dl>"],
+      "answer": "<ul>"
+    },
+    {
+      "id": "wd_q5",
+      "question": "What does CSS stand for?",
+      "choices": [
+        "Cascading Style Sheets",
+        "Creative Style System",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "answer": "Cascading Style Sheets"
+    },
+    {
+      "id": "wd_q6",
+      "question": "Which of the following is a JavaScript framework/library?",
+      "choices": ["Laravel", "Django", "React", "Spring"],
+      "answer": "React"
+    },
+    {
+      "id": "wd_q7",
+      "question": "What HTTP method is typically used to request data from a server?",
+      "choices": ["POST", "GET", "PUT", "DELETE"],
+      "answer": "GET"
+    },
+    {
+      "id": "wd_q8",
+      "question": "Which HTML element is used to specify a header for a document or section?",
+      "choices": ["<header>", "<head>", "<h1>", "<section>"],
+      "answer": "<header>"
+    },
+    {
+      "id": "wd_q9",
+      "question": "In CSS, what is the 'box model'?",
+      "choices": [
+        "A model for 3D graphics",
+        "A layout paradigm describing how elements are rendered as rectangular boxes",
+        "A way to store CSS variables",
+        "A JavaScript animation technique"
+      ],
+      "answer": "A layout paradigm describing how elements are rendered as rectangular boxes"
+    },
+    {
+      "id": "wd_q10",
+      "question": "How do you declare a variable in JavaScript?",
+      "choices": [
+        "var myVar;",
+        "variable myVar;",
+        "let myVar;",
+        "Both var myVar; and let myVar;"
+      ],
+      "answer": "Both var myVar; and let myVar;"
+    },
+    {
+      "id": "wd_q11",
+      "question": "What is the correct HTML for referring to an external JavaScript file?",
+      "choices": [
+        "<script href='script.js'>",
+        "<javascript src='script.js'>",
+        "<script src='script.js'>",
+        "<js link='script.js'>"
+      ],
+      "answer": "<script src='script.js'>"
+    },
+    {
+      "id": "wd_q12",
+      "question": "Which CSS property controls the spacing between lines of text?",
+      "choices": [
+        "letter-spacing",
+        "word-spacing",
+        "line-height",
+        "text-indent"
+      ],
+      "answer": "line-height"
+    },
+    {
+      "id": "wd_q13",
+      "question": "What does API stand for?",
+      "choices": [
+        "Application Programming Interface",
+        "Advanced Programming Integration",
+        "Application Process Interface",
+        "Automated Programming Interface"
+      ],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "id": "wd_q14",
+      "question": "Which HTML tag is used to create a hyperlink?",
+      "choices": ["<link>", "<href>", "<a>", "<hyperlink>"],
+      "answer": "<a>"
+    },
+    {
+      "id": "wd_q15",
+      "question": "What is 'Responsive Web Design'?",
+      "choices": [
+        "Designing websites that respond quickly to user input",
+        "Designing websites that adapt to different screen sizes and devices",
+        "Designing websites with many animations",
+        "Designing websites that are easy to read"
+      ],
+      "answer": "Designing websites that adapt to different screen sizes and devices"
+    },
+    {
+      "id": "wd_q16",
+      "question": "How can you include comments in CSS?",
+      "choices": [
+        "// This is a comment",
+        "",
+        "/* This is a comment */",
+        "## This is a comment"
+      ],
+      "answer": "/* This is a comment */"
+    },
+    {
+      "id": "wd_q17",
+      "question": "Which JavaScript event occurs when the user clicks on an HTML element?",
+      "choices": ["onmouseclick", "onchange", "onmouseover", "onclick"],
+      "answer": "onclick"
+    },
+    {
+      "id": "wd_q18",
+      "question": "What is the purpose of the HTML `<form>` tag?",
+      "choices": [
+        "To display tabular data",
+        "To create a container for user input controls",
+        "To embed multimedia content",
+        "To define a section of navigation links"
+      ],
+      "answer": "To create a container for user input controls"
+    },
+    {
+      "id": "wd_q19",
+      "question": "In CSS, what does 'flexbox' primarily help with?",
+      "choices": [
+        "Styling text fonts",
+        "Creating complex layouts and aligning items in a container",
+        "Managing server-side data",
+        "Animating page transitions"
+      ],
+      "answer": "Creating complex layouts and aligning items in a container"
+    },
+    {
+      "id": "wd_q20",
+      "question": "What is JSON?",
+      "choices": [
+        "JavaScript Object Notation - a lightweight data-interchange format",
+        "Java Standard Object Naming",
+        "JavaScript Oriented Networking",
+        "A JavaScript styling language"
+      ],
+      "answer": "JavaScript Object Notation - a lightweight data-interchange format"
+    },
+    {
+      "id": "wd_q21",
+      "question": "Which HTML5 element is used to embed video content?",
+      "choices": ["<media>", "<movie>", "<video>", "<source>"],
+      "answer": "<video>"
+    },
+    {
+      "id": "wd_q22",
+      "question": "What is the CSS 'selector'?",
+      "choices": [
+        "A property that defines colors",
+        "A pattern used to select HTML elements to style",
+        "A JavaScript function for element selection",
+        "A unit of measurement in CSS"
+      ],
+      "answer": "A pattern used to select HTML elements to style"
+    },
+    {
+      "id": "wd_q23",
+      "question": "What does the `===` operator do in JavaScript?",
+      "choices": [
+        "Assigns a value",
+        "Compares values for equality without type conversion",
+        "Compares values for equality with type conversion",
+        "Checks if a value is greater than another"
+      ],
+      "answer": "Compares values for equality without type conversion"
+    },
+    {
+      "id": "wd_q24",
+      "question": "What is the role of a web server?",
+      "choices": [
+        "To write HTML code",
+        "To store and deliver web pages to clients upon request",
+        "To design the user interface of a website",
+        "To execute JavaScript code on the client's machine"
+      ],
+      "answer": "To store and deliver web pages to clients upon request"
+    },
+    {
+      "id": "wd_q25",
+      "question": "Which CSS unit is relative to the font-size of the element itself?",
+      "choices": ["px", "cm", "em", "%"],
+      "answer": "em"
+    },
+    {
+      "id": "wd_q26",
+      "question": "What is an 'event listener' in JavaScript?",
+      "choices": [
+        "A variable that stores event data",
+        "A function that waits for a specific event to occur and then responds to it",
+        "A CSS property for event styling",
+        "An HTML attribute for defining events"
+      ],
+      "answer": "A function that waits for a specific event to occur and then responds to it"
+    },
+    {
+      "id": "wd_q27",
+      "question": "Which HTML attribute is used to provide an alternative text for an image, if the image cannot be displayed?",
+      "choices": ["title", "src", "alt", "longdesc"],
+      "answer": "alt"
+    },
+    {
+      "id": "wd_q28",
+      "question": "What is CSS Specificity?",
+      "choices": [
+        "A measure of how fast CSS loads",
+        "The set of rules browsers use to determine which CSS style applies if multiple styles conflict",
+        "A CSS preprocessor language",
+        "A tool for optimizing CSS file sizes"
+      ],
+      "answer": "The set of rules browsers use to determine which CSS style applies if multiple styles conflict"
+    },
+    {
+      "id": "wd_q29",
+      "question": "What is the DOM in the context of web development?",
+      "choices": [
+        "Document Object Model - a programming interface for HTML and XML documents",
+        "Data Object Manager - a database system",
+        "Direct Object Manipulation - a JavaScript library",
+        "Domain Object Model - a server-side framework"
+      ],
+      "answer": "Document Object Model - a programming interface for HTML and XML documents"
+    },
+    {
+      "id": "wd_q30",
+      "question": "Which HTTP status code means 'Not Found'?",
+      "choices": [
+        "200 OK",
+        "301 Moved Permanently",
+        "404 Not Found",
+        "500 Internal Server Error"
+      ],
+      "answer": "404 Not Found"
+    },
+    {
+      "id": "wd_q31",
+      "question": "What is the purpose of the `localStorage` object in web browsers?",
+      "choices": [
+        "To store data that persists only for the current session",
+        "To store data with no expiration date on the user's computer",
+        "To send data to the server with every request",
+        "To manage browser history"
+      ],
+      "answer": "To store data with no expiration date on the user's computer"
+    },
+    {
+      "id": "wd_q32",
+      "question": "Which CSS property is used to create an outline around an element, outside the border?",
+      "choices": ["border", "padding", "margin", "outline"],
+      "answer": "outline"
+    },
+    {
+      "id": "wd_q33",
+      "question": "What is an 'arrow function' in JavaScript?",
+      "choices": [
+        "A function that draws arrows on the screen",
+        "A more concise syntax for writing function expressions",
+        "A function used for navigating web pages",
+        "A function that only works with arrays"
+      ],
+      "answer": "A more concise syntax for writing function expressions"
+    },
+    {
+      "id": "wd_q34",
+      "question": "Which HTML tag is used to define a table row?",
+      "choices": ["<td>", "<th>", "<tr>", "<table>"],
+      "answer": "<tr>"
+    },
+    {
+      "id": "wd_q35",
+      "question": "What does 'WCAG' stand for in the context of web accessibility?",
+      "choices": [
+        "Web Content Accessibility Guidelines",
+        "World Class Animation Graphics",
+        "Web Coding And Graphics",
+        "Worldwide Content Accessibility Group"
+      ],
+      "answer": "Web Content Accessibility Guidelines"
+    },
+    {
+      "id": "wd_q36",
+      "question": "How do you select an element with id 'myElement' using CSS?",
+      "choices": [".myElement", "#myElement", "myElement", "*myElement"],
+      "answer": "#myElement"
+    },
+    {
+      "id": "wd_q37",
+      "question": "What is AJAX primarily used for?",
+      "choices": [
+        "To create 3D graphics",
+        "To make asynchronous HTTP requests from the client to the server without a full page reload",
+        "To manage user authentication",
+        "To define the structure of a web page"
+      ],
+      "answer": "To make asynchronous HTTP requests from the client to the server without a full page reload"
+    },
+    {
+      "id": "wd_q38",
+      "question": "What is the default display value for a `<div>` element?",
+      "choices": ["inline", "inline-block", "block", "none"],
+      "answer": "block"
+    },
+    {
+      "id": "wd_q39",
+      "question": "Which JavaScript method is used to remove the last element from an array and returns that element?",
+      "choices": ["push()", "pop()", "shift()", "unshift()"],
+      "answer": "pop()"
+    },
+    {
+      "id": "wd_q40",
+      "question": "What is 'Git'?",
+      "choices": [
+        "A web server software",
+        "A JavaScript library for animations",
+        "A distributed version control system",
+        "A type of CSS framework"
+      ],
+      "answer": "A distributed version control system"
+    },
+    {
+      "id": "wd_q41",
+      "question": "Which HTML element is used for the largest heading?",
+      "choices": ["<h6>", "<heading>", "<h1>", "<head>"],
+      "answer": "<h1>"
+    },
+    {
+      "id": "wd_q42",
+      "question": "What is the purpose of CSS media queries?",
+      "choices": [
+        "To query databases using CSS",
+        "To apply different styles for different devices/screen sizes",
+        "To play media files like audio and video",
+        "To link multiple CSS files"
+      ],
+      "answer": "To apply different styles for different devices/screen sizes"
+    },
+    {
+      "id": "wd_q43",
+      "question": "What does `typeof` operator in JavaScript return for an array?",
+      "choices": ["'array'", "'object'", "'list'", "'arrayobject'"],
+      "answer": "'object'"
+    },
+    {
+      "id": "wd_q44",
+      "question": "What is a 'cookie' in web terms?",
+      "choices": [
+        "A type of web font",
+        "A small piece of data stored by the browser on the user's computer",
+        "A JavaScript animation effect",
+        "A server-side script"
+      ],
+      "answer": "A small piece of data stored by the browser on the user's computer"
+    },
+    {
+      "id": "wd_q45",
+      "question": "Which CSS property is used to make text bold?",
+      "choices": [
+        "font-style",
+        "text-decoration",
+        "font-weight",
+        "text-transform"
+      ],
+      "answer": "font-weight"
+    },
+    {
+      "id": "wd_q46",
+      "question": "What is the `innerHTML` property in JavaScript used for?",
+      "choices": [
+        "To set the internal styling of an element",
+        "To get or set the HTML content within an element",
+        "To check if an element is inside another",
+        "To define the language of an HTML document"
+      ],
+      "answer": "To get or set the HTML content within an element"
+    },
+    {
+      "id": "wd_q47",
+      "question": "Which tag is used to embed an image in an HTML page?",
+      "choices": ["<pic>", "<image>", "<img>", "<graphic>"],
+      "answer": "<img>"
+    },
+    {
+      "id": "wd_q48",
+      "question": "What does the 'C' in CRUD stand for in the context of web APIs?",
+      "choices": ["Copy", "Create", "Compile", "Connect"],
+      "answer": "Create"
+    },
+    {
+      "id": "wd_q49",
+      "question": "Which of these is a CSS preprocessor?",
+      "choices": ["jQuery", "Sass", "Bootstrap", "Node.js"],
+      "answer": "Sass"
+    },
+    {
+      "id": "wd_q50",
+      "question": "What is the purpose of the `<!DOCTYPE html>` declaration?",
+      "choices": [
+        "It defines the XML version of the document",
+        "It tells the browser that the document is an HTML5 document",
+        "It includes a JavaScript library",
+        "It sets the character encoding for the document"
+      ],
+      "answer": "It tells the browser that the document is an HTML5 document"
+    }
+  ],
+  "Computer Fundamentals": [
+    {
+      "id": "cf_q1",
+      "question": "What is the main function of a CPU?",
+      "choices": [
+        "Store data permanently",
+        "Execute program instructions",
+        "Display output to the screen",
+        "Connect to the internet"
+      ],
+      "answer": "Execute program instructions"
+    },
+    {
+      "id": "cf_q2",
+      "question": "Which of these is an example of an operating system?",
+      "choices": [
+        "Microsoft Word",
+        "Google Chrome",
+        "Windows 10",
+        "Adobe Photoshop"
+      ],
+      "answer": "Windows 10"
+    },
+    {
+      "id": "cf_q3",
+      "question": "What does RAM stand for?",
+      "choices": [
+        "Read Access Memory",
+        "Random Access Memory",
+        "Run Application Module",
+        "Remote Access Manager"
+      ],
+      "answer": "Random Access Memory"
+    },
+    {
+      "id": "cf_q4",
+      "question": "Which component is often referred to as the 'brain' of the computer?",
+      "choices": ["RAM", "Hard Drive", "Motherboard", "CPU"],
+      "answer": "CPU"
+    },
+    {
+      "id": "cf_q5",
+      "question": "What is binary code?",
+      "choices": [
+        "A code using 10 digits",
+        "A code using letters and numbers",
+        "A code using only 0s and 1s",
+        "A type of encryption"
+      ],
+      "answer": "A code using only 0s and 1s"
+    },
+    {
+      "id": "cf_q6",
+      "question": "Which of the following is a type of non-volatile memory?",
+      "choices": [
+        "RAM",
+        "Cache Memory",
+        "SSD (Solid State Drive)",
+        "Registers"
+      ],
+      "answer": "SSD (Solid State Drive)"
+    },
+    {
+      "id": "cf_q7",
+      "question": "What does 'IP' stand for in TCP/IP?",
+      "choices": [
+        "Internet Protocol",
+        "Internal Process",
+        "Information Provider",
+        "Interface Program"
+      ],
+      "answer": "Internet Protocol"
+    },
+    {
+      "id": "cf_q8",
+      "question": "What is the primary purpose of an IP address?",
+      "choices": [
+        "To encrypt data",
+        "To identify a device on a network",
+        "To store user preferences",
+        "To manage computer power settings"
+      ],
+      "answer": "To identify a device on a network"
+    },
+    {
+      "id": "cf_q9",
+      "question": "Which of these is an input device?",
+      "choices": ["Monitor", "Printer", "Keyboard", "Speakers"],
+      "answer": "Keyboard"
+    },
+    {
+      "id": "cf_q10",
+      "question": "What is 'software'?",
+      "choices": [
+        "Physical components of a computer",
+        "A set of instructions that tells a computer what to do",
+        "A type of computer virus",
+        "The computer screen"
+      ],
+      "answer": "A set of instructions that tells a computer what to do"
+    },
+    {
+      "id": "cf_q11",
+      "question": "What is a 'byte' typically composed of?",
+      "choices": ["4 bits", "8 bits", "16 bits", "1 bit"],
+      "answer": "8 bits"
+    },
+    {
+      "id": "cf_q12",
+      "question": "What does DNS stand for?",
+      "choices": [
+        "Digital Network Service",
+        "Domain Name System",
+        "Data Naming Standard",
+        "Dynamic Network Server"
+      ],
+      "answer": "Domain Name System"
+    },
+    {
+      "id": "cf_q13",
+      "question": "Which of the following is an example of application software?",
+      "choices": ["Linux", "BIOS", "Microsoft Excel", "Device Driver"],
+      "answer": "Microsoft Excel"
+    },
+    {
+      "id": "cf_q14",
+      "question": "What is a 'file extension'?",
+      "choices": [
+        "The first part of a file name",
+        "A set of characters at the end of a file name that indicates the file type",
+        "A hidden attribute of a file",
+        "The size of the file"
+      ],
+      "answer": "A set of characters at the end of a file name that indicates the file type"
+    },
+    {
+      "id": "cf_q15",
+      "question": "What is 'cloud computing'?",
+      "choices": [
+        "Storing data on your local hard drive",
+        "Using a network of remote servers hosted on the Internet to store, manage, and process data",
+        "A type of weather forecasting software",
+        "Connecting computers in a small office"
+      ],
+      "answer": "Using a network of remote servers hosted on the Internet to store, manage, and process data"
+    },
+    {
+      "id": "cf_q16",
+      "question": "Which of these is a common type of malware?",
+      "choices": ["Firewall", "Antivirus", "Virus", "Operating System"],
+      "answer": "Virus"
+    },
+    {
+      "id": "cf_q17",
+      "question": "What is the function of a router in a network?",
+      "choices": [
+        "To provide power to network devices",
+        "To create documents",
+        "To forward data packets between computer networks",
+        "To display web pages"
+      ],
+      "answer": "To forward data packets between computer networks"
+    },
+    {
+      "id": "cf_q18",
+      "question": "What does 'URL' stand for?",
+      "choices": [
+        "Universal Resource Locator",
+        "Uniform Reference Link",
+        "Universal Reference Locator",
+        "Uniform Resource Linker"
+      ],
+      "answer": "Universal Resource Locator"
+    },
+    {
+      "id": "cf_q19",
+      "question": "Which unit is used to measure CPU clock speed?",
+      "choices": ["Bytes", "Hertz (Hz)", "Watts (W)", "Pixels"],
+      "answer": "Hertz (Hz)"
+    },
+    {
+      "id": "cf_q20",
+      "question": "What is an 'algorithm'?",
+      "choices": [
+        "A type of computer hardware",
+        "A step-by-step procedure for solving a problem or accomplishing a task",
+        "A programming language",
+        "A software bug"
+      ],
+      "answer": "A step-by-step procedure for solving a problem or accomplishing a task"
+    },
+    {
+      "id": "cf_q21",
+      "question": "What is the role of the motherboard in a computer?",
+      "choices": [
+        "To execute programs",
+        "To connect all the main components of the computer",
+        "To store long-term data",
+        "To provide internet connectivity"
+      ],
+      "answer": "To connect all the main components of the computer"
+    },
+    {
+      "id": "cf_q22",
+      "question": "Which of these is an output device?",
+      "choices": ["Mouse", "Scanner", "Microphone", "Monitor"],
+      "answer": "Monitor"
+    },
+    {
+      "id": "cf_q23",
+      "question": "What is 'phishing'?",
+      "choices": [
+        "A method of catching fish using technology",
+        "A type of computer game",
+        "An attempt to acquire sensitive information by masquerading as a trustworthy entity",
+        "A software for cleaning computer viruses"
+      ],
+      "answer": "An attempt to acquire sensitive information by masquerading as a trustworthy entity"
+    },
+    {
+      "id": "cf_q24",
+      "question": "What does 'GUI' stand for?",
+      "choices": [
+        "General User Interaction",
+        "Graphical User Interface",
+        "Global Unique Identifier",
+        "Game Utility Interface"
+      ],
+      "answer": "Graphical User Interface"
+    },
+    {
+      "id": "cf_q25",
+      "question": "Which type of software is designed to protect your computer from malware?",
+      "choices": [
+        "Word Processor",
+        "Web Browser",
+        "Antivirus Software",
+        "Spreadsheet Program"
+      ],
+      "answer": "Antivirus Software"
+    },
+    {
+      "id": "cf_q26",
+      "question": "What is a 'server' in the context of computer networks?",
+      "choices": [
+        "A computer that provides services or resources to other computers (clients)",
+        "The main computer used by an individual",
+        "A type of internet connection",
+        "A software for browsing the web"
+      ],
+      "answer": "A computer that provides services or resources to other computers (clients)"
+    },
+    {
+      "id": "cf_q27",
+      "question": "What is the term for the physical parts of a computer system?",
+      "choices": ["Software", "Firmware", "Hardware", "Malware"],
+      "answer": "Hardware"
+    },
+    {
+      "id": "cf_q28",
+      "question": "Which of the following is a characteristic of RAM?",
+      "choices": [
+        "Permanent storage",
+        "Volatile (loses data when power is off)",
+        "Slow access speed",
+        "Used for booting the OS only"
+      ],
+      "answer": "Volatile (loses data when power is off)"
+    },
+    {
+      "id": "cf_q29",
+      "question": "What is the purpose of a 'firewall'?",
+      "choices": [
+        "To cool down the computer",
+        "To prevent unauthorized access to or from a private network",
+        "To increase internet speed",
+        "To store passwords securely"
+      ],
+      "answer": "To prevent unauthorized access to or from a private network"
+    },
+    {
+      "id": "cf_q30",
+      "question": "What does 'HTTP' stand for?",
+      "choices": [
+        "HyperText Transfer Protocol",
+        "HighText Transfer Protocol",
+        "HyperTransfer Text Protocol",
+        "HyperText Transmission Process"
+      ],
+      "answer": "HyperText Transfer Protocol"
+    },
+    {
+      "id": "cf_q31",
+      "question": "What is a 'pixel'?",
+      "choices": [
+        "A unit of data storage",
+        "The smallest addressable element in a raster image",
+        "A measure of internet speed",
+        "A type of CPU"
+      ],
+      "answer": "The smallest addressable element in a raster image"
+    },
+    {
+      "id": "cf_q32",
+      "question": "Which part of the computer is responsible for storing the operating system and user files when the computer is off?",
+      "choices": ["CPU", "RAM", "Hard Drive / SSD", "Cache Memory"],
+      "answer": "Hard Drive / SSD"
+    },
+    {
+      "id": "cf_q33",
+      "question": "What is 'open-source software'?",
+      "choices": [
+        "Software that is very expensive",
+        "Software whose source code is available for modification or enhancement by anyone",
+        "Software that can only be used online",
+        "Software that has not been released yet"
+      ],
+      "answer": "Software whose source code is available for modification or enhancement by anyone"
+    },
+    {
+      "id": "cf_q34",
+      "question": "What is the function of an 'Ethernet cable'?",
+      "choices": [
+        "To connect a monitor to a computer",
+        "To provide power to a computer",
+        "To connect devices in a local area network (LAN)",
+        "To charge a mobile phone"
+      ],
+      "answer": "To connect devices in a local area network (LAN)"
+    },
+    {
+      "id": "cf_q35",
+      "question": "What does 'Wi-Fi' use to transmit data?",
+      "choices": [
+        "Light signals",
+        "Sound waves",
+        "Radio waves",
+        "Electrical wires"
+      ],
+      "answer": "Radio waves"
+    },
+    {
+      "id": "cf_q36",
+      "question": "What is a 'kernel' in an operating system?",
+      "choices": [
+        "The user interface",
+        "A utility for managing files",
+        "The core component that manages system resources",
+        "A type of system font"
+      ],
+      "answer": "The core component that manages system resources"
+    },
+    {
+      "id": "cf_q37",
+      "question": "Which number system has a base of 16?",
+      "choices": ["Binary", "Octal", "Decimal", "Hexadecimal"],
+      "answer": "Hexadecimal"
+    },
+    {
+      "id": "cf_q38",
+      "question": "What is 'multitasking' in an operating system?",
+      "choices": [
+        "Running multiple monitors",
+        "The ability to execute multiple tasks or processes concurrently",
+        "Using multiple keyboards",
+        "Connecting to multiple networks"
+      ],
+      "answer": "The ability to execute multiple tasks or processes concurrently"
+    },
+    {
+      "id": "cf_q39",
+      "question": "What is a 'backup' in computing?",
+      "choices": [
+        "A copy of data that can be used to restore the original in case of data loss",
+        "The main storage device",
+        "A security feature to prevent viruses",
+        "A way to speed up the computer"
+      ],
+      "answer": "A copy of data that can be used to restore the original in case of data loss"
+    },
+    {
+      "id": "cf_q40",
+      "question": "What does 'SaaS' stand for in cloud computing?",
+      "choices": [
+        "Software as a Service",
+        "System as a Service",
+        "Storage as a Service",
+        "Security as a Service"
+      ],
+      "answer": "Software as a Service"
+    },
+    {
+      "id": "cf_q41",
+      "question": "What is a 'Trojan horse' in cybersecurity?",
+      "choices": [
+        "A strong antivirus program",
+        "A type of malware disguised as legitimate software",
+        "A hardware security key",
+        "A method for encrypting files"
+      ],
+      "answer": "A type of malware disguised as legitimate software"
+    },
+    {
+      "id": "cf_q42",
+      "question": "Which of these is a peripheral device?",
+      "choices": ["CPU", "RAM", "Printer", "Motherboard"],
+      "answer": "Printer"
+    },
+    {
+      "id": "cf_q43",
+      "question": "What is the primary role of a 'compiler'?",
+      "choices": [
+        "To execute code line by line",
+        "To translate source code from a high-level programming language to a lower-level language (e.g., machine code)",
+        "To manage computer memory",
+        "To debug programs"
+      ],
+      "answer": "To translate source code from a high-level programming language to a lower-level language (e.g., machine code)"
+    },
+    {
+      "id": "cf_q44",
+      "question": "What is 'virtual memory'?",
+      "choices": [
+        "Memory that does not exist",
+        "A memory management capability of an OS that uses hardware and software to allow a computer to compensate for physical memory shortages",
+        "A type of very fast RAM",
+        "Memory used by virtual reality headsets"
+      ],
+      "answer": "A memory management capability of an OS that uses hardware and software to allow a computer to compensate for physical memory shortages"
+    },
+    {
+      "id": "cf_q45",
+      "question": "What is a 'cookie' in the context of web browsing (related to computer fundamentals)?",
+      "choices": [
+        "A small piece of data sent from a website and stored on the user's computer by the web browser",
+        "A type of computer virus",
+        "A hardware component for storing data",
+        "A snack eaten while using the computer"
+      ],
+      "answer": "A small piece of data sent from a website and stored on the user's computer by the web browser"
+    },
+    {
+      "id": "cf_q46",
+      "question": "What does 'LAN' stand for?",
+      "choices": [
+        "Large Area Network",
+        "Local Access Network",
+        "Local Area Network",
+        "Long Access Node"
+      ],
+      "answer": "Local Area Network"
+    },
+    {
+      "id": "cf_q47",
+      "question": "What is 'firmware'?",
+      "choices": [
+        "A type of very soft hardware",
+        "Permanent software programmed into a read-only memory.",
+        "A subscription model for software",
+        "Software that is not yet complete"
+      ],
+      "answer": "Permanent software programmed into a read-only memory."
+    },
+    {
+      "id": "cf_q48",
+      "question": "Which of these best describes a 'database'?",
+      "choices": [
+        "A single text file",
+        "An organized collection of structured information, or data, typically stored electronically in a computer system",
+        "A type of spreadsheet software",
+        "A computer's main memory"
+      ],
+      "answer": "An organized collection of structured information, or data, typically stored electronically in a computer system"
+    },
+    {
+      "id": "cf_q49",
+      "question": "What is 'encryption'?",
+      "choices": [
+        "The process of converting information or data into a code, especially to prevent unauthorized access",
+        "Deleting data permanently",
+        "Compressing files to save space",
+        "Installing new software"
+      ],
+      "answer": "The process of converting information or data into a code, especially to prevent unauthorized access"
+    },
+    {
+      "id": "cf_q50",
+      "question": "What is the 'Internet of Things (IoT)'?",
+      "choices": [
+        "A new version of the internet",
+        "A network of physical objects embedded with sensors, software, and other technologies for connecting and exchanging data with other devices and systems over the internet",
+        "A specific brand of smart home devices",
+        "A type of online game"
+      ],
+      "answer": "A network of physical objects embedded with sensors, software, and other technologies for connecting and exchanging data with other devices and systems over the internet"
+    }
+  ],
+  "Programming Concepts": [
+    {
+      "id": "pc_q1",
+      "question": "What is a variable in programming?",
+      "choices": [
+        "A fixed value",
+        "A named storage location for data",
+        "A type of loop",
+        "A function"
+      ],
+      "answer": "A named storage location for data"
+    },
+    {
+      "id": "pc_q2",
+      "question": "Which keyword is commonly used to define a function in Python?",
+      "choices": ["function", "def", "method", "define"],
+      "answer": "def"
+    },
+    {
+      "id": "pc_q3",
+      "question": "What is an 'if-else' statement used for?",
+      "choices": [
+        "Repeating a block of code",
+        "Defining a variable",
+        "Making decisions based on conditions",
+        "Declaring a class"
+      ],
+      "answer": "Making decisions based on conditions"
+    },
+    {
+      "id": "pc_q4",
+      "question": "What is a 'loop' in programming?",
+      "choices": [
+        "A way to stop program execution",
+        "A structure that repeats a block of code multiple times",
+        "A type of data storage",
+        "A comment in the code"
+      ],
+      "answer": "A structure that repeats a block of code multiple times"
+    },
+    {
+      "id": "pc_q5",
+      "question": "Which of these is a common data type?",
+      "choices": ["Integer", "Loop", "Function", "Class"],
+      "answer": "Integer"
+    },
+    {
+      "id": "pc_q6",
+      "question": "What does 'OOP' stand for?",
+      "choices": [
+        "Object-Oriented Programming",
+        "Open Office Protocol",
+        "Order Of Processing",
+        "Optimal Output Path"
+      ],
+      "answer": "Object-Oriented Programming"
+    },
+    {
+      "id": "pc_q7",
+      "question": "What is an 'array' (or list in some languages)?",
+      "choices": [
+        "A single value",
+        "An ordered collection of items",
+        "A conditional statement",
+        "A type of function"
+      ],
+      "answer": "An ordered collection of items"
+    },
+    {
+      "id": "pc_q8",
+      "question": "What is 'debugging'?",
+      "choices": [
+        "Writing code very quickly",
+        "The process of finding and fixing errors in code",
+        "Optimizing code for speed",
+        "Adding comments to code"
+      ],
+      "answer": "The process of finding and fixing errors in code"
+    },
+    {
+      "id": "pc_q9",
+      "question": "What is a 'function' or 'method' in programming?",
+      "choices": [
+        "A variable that holds multiple values",
+        "A block of code designed to perform a specific task",
+        "A type of error",
+        "A loop construct"
+      ],
+      "answer": "A block of code designed to perform a specific task"
+    },
+    {
+      "id": "pc_q10",
+      "question": "What is 'syntax' in programming?",
+      "choices": [
+        "The logical flow of a program",
+        "The set of rules that defines how a program must be written",
+        "The comments in the code",
+        "The speed of program execution"
+      ],
+      "answer": "The set of rules that defines how a program must be written"
+    },
+    {
+      "id": "pc_q11",
+      "question": "Which of the following is a 'Boolean' value?",
+      "choices": ["10", "\"Hello\"", "true", "3.14"],
+      "answer": "true"
+    },
+    {
+      "id": "pc_q12",
+      "question": "What is a 'class' in Object-Oriented Programming?",
+      "choices": [
+        "An instance of an object",
+        "A blueprint for creating objects",
+        "A type of function",
+        "A global variable"
+      ],
+      "answer": "A blueprint for creating objects"
+    },
+    {
+      "id": "pc_q13",
+      "question": "What does 'API' stand for in a programming context?",
+      "choices": [
+        "Application Programming Interface",
+        "Automated Program Invocation",
+        "Applied Process Integration",
+        "Abstract Programming Idea"
+      ],
+      "answer": "Application Programming Interface"
+    },
+    {
+      "id": "pc_q14",
+      "question": "What is 'pseudocode'?",
+      "choices": [
+        "Code written in a specific programming language",
+        "An informal, high-level description of the operating principle of a computer program or algorithm",
+        "Encrypted code",
+        "Code that contains many errors"
+      ],
+      "answer": "An informal, high-level description of the operating principle of a computer program or algorithm"
+    },
+    {
+      "id": "pc_q15",
+      "question": "What is 'recursion'?",
+      "choices": [
+        "A type of loop",
+        "A function calling itself",
+        "A way to handle errors",
+        "A data storage method"
+      ],
+      "answer": "A function calling itself"
+    },
+    {
+      "id": "pc_q16",
+      "question": "What is 'source code'?",
+      "choices": [
+        "The compiled version of a program",
+        "The human-readable instructions written by a programmer",
+        "The output of a program",
+        "The documentation for a program"
+      ],
+      "answer": "The human-readable instructions written by a programmer"
+    },
+    {
+      "id": "pc_q17",
+      "question": "What is a 'compiler'?",
+      "choices": [
+        "A program that executes code line by line",
+        "A program that translates source code into machine code or another lower-level language",
+        "A text editor for writing code",
+        "A debugging tool"
+      ],
+      "answer": "A program that translates source code into machine code or another lower-level language"
+    },
+    {
+      "id": "pc_q18",
+      "question": "What is an 'interpreter'?",
+      "choices": [
+        "A program that translates entire source code into machine code at once",
+        "A program that directly executes instructions written in a programming language line by line",
+        "A hardware component",
+        "A type of data structure"
+      ],
+      "answer": "A program that directly executes instructions written in a programming language line by line"
+    },
+    {
+      "id": "pc_q19",
+      "question": "What is 'inheritance' in OOP?",
+      "choices": [
+        "A mechanism where a new class derives properties and methods from an existing class",
+        "A way to create multiple instances of a class",
+        "A method for hiding internal class details",
+        "A type of loop structure"
+      ],
+      "answer": "A mechanism where a new class derives properties and methods from an existing class"
+    },
+    {
+      "id": "pc_q20",
+      "question": "What is 'encapsulation' in OOP?",
+      "choices": [
+        "Making all class members public",
+        "Bundling data (attributes) and methods that operate on the data into a single unit (class), and restricting access to some of the object's components",
+        "A function calling itself",
+        "The process of compiling code"
+      ],
+      "answer": "Bundling data (attributes) and methods that operate on the data into a single unit (class), and restricting access to some of the object's components"
+    },
+    {
+      "id": "pc_q21",
+      "question": "What is a 'string' data type?",
+      "choices": [
+        "A sequence of numbers",
+        "A sequence of characters",
+        "A true or false value",
+        "A whole number"
+      ],
+      "answer": "A sequence of characters"
+    },
+    {
+      "id": "pc_q22",
+      "question": "What is a 'parameter' or 'argument' of a function?",
+      "choices": [
+        "The name of the function",
+        "The value returned by the function",
+        "A value passed into a function when it is called",
+        "A variable defined inside a function"
+      ],
+      "answer": "A value passed into a function when it is called"
+    },
+    {
+      "id": "pc_q23",
+      "question": "What does 'IDE' stand for?",
+      "choices": [
+        "Integrated Development Environment",
+        "Internal Debugging Engine",
+        "Interface Design Editor",
+        "Independent Driver Extension"
+      ],
+      "answer": "Integrated Development Environment"
+    },
+    {
+      "id": "pc_q24",
+      "question": "What is 'version control' (e.g., Git)?",
+      "choices": [
+        "A system for managing different versions of software",
+        "A tool for checking code syntax",
+        "A way to deploy applications",
+        "A system for tracking and managing changes to code over time"
+      ],
+      "answer": "A system for tracking and managing changes to code over time"
+    },
+    {
+      "id": "pc_q25",
+      "question": "What is an 'object' in OOP?",
+      "choices": [
+        "A blueprint for a class",
+        "An instance of a class",
+        "A global variable",
+        "A type of function"
+      ],
+      "answer": "An instance of a class"
+    },
+    {
+      "id": "pc_q26",
+      "question": "What is a 'comment' in programming code?",
+      "choices": [
+        "An executable instruction",
+        "A piece of text ignored by the compiler/interpreter, used for explanations",
+        "A type of error message",
+        "A variable name"
+      ],
+      "answer": "A piece of text ignored by the compiler/interpreter, used for explanations"
+    },
+    {
+      "id": "pc_q27",
+      "question": "What is 'polymorphism' in OOP?",
+      "choices": [
+        "The ability of an object to take on many forms, or for a method to behave differently based on the object that calls it",
+        "Creating multiple copies of an object",
+        "Restricting access to class members",
+        "A function that calls itself many times"
+      ],
+      "answer": "The ability of an object to take on many forms, or for a method to behave differently based on the object that calls it"
+    },
+    {
+      "id": "pc_q28",
+      "question": "Which operator is commonly used for assignment in many programming languages?",
+      "choices": ["==", "=", "===", "!="],
+      "answer": "="
+    },
+    {
+      "id": "pc_q29",
+      "question": "What is a 'data structure'?",
+      "choices": [
+        "A way to structure comments in code",
+        "A particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently",
+        "A type of control flow statement",
+        "A hardware component for data storage"
+      ],
+      "answer": "A particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently"
+    },
+    {
+      "id": "pc_q30",
+      "question": "What is 'error handling'?",
+      "choices": [
+        "Ignoring errors in code",
+        "The process of anticipating, detecting, and resolving errors in software",
+        "Writing code that never has errors",
+        "A type of debugging tool"
+      ],
+      "answer": "The process of anticipating, detecting, and resolving errors in software"
+    },
+    {
+      "id": "pc_q31",
+      "question": "What is a 'for loop' typically used for?",
+      "choices": [
+        "Executing a block of code if a condition is true",
+        "Iterating over a sequence (like an array or list) or executing a block of code a specific number of times",
+        "Defining a function",
+        "Stopping program execution"
+      ],
+      "answer": "Iterating over a sequence (like an array or list) or executing a block of code a specific number of times"
+    },
+    {
+      "id": "pc_q32",
+      "question": "What is 'scope' in programming?",
+      "choices": [
+        "The length of a variable name",
+        "The context in which a variable is defined and can be accessed",
+        "The speed of a function",
+        "The number of lines in a program"
+      ],
+      "answer": "The context in which a variable is defined and can be accessed"
+    },
+    {
+      "id": "pc_q33",
+      "question": "Which data structure uses a LIFO (Last-In, First-Out) principle?",
+      "choices": ["Queue", "Array", "Stack", "Linked List"],
+      "answer": "Stack"
+    },
+    {
+      "id": "pc_q34",
+      "question": "Which data structure uses a FIFO (First-In, First-Out) principle?",
+      "choices": ["Stack", "Queue", "Tree", "Hash Table"],
+      "answer": "Queue"
+    },
+    {
+      "id": "pc_q35",
+      "question": "What is 'abstraction' in programming?",
+      "choices": [
+        "Making code more complex",
+        "Hiding complex implementation details and showing only the essential features of an object or system",
+        "Writing code that is very specific",
+        "A type of data conversion"
+      ],
+      "answer": "Hiding complex implementation details and showing only the essential features of an object or system"
+    },
+    {
+      "id": "pc_q36",
+      "question": "What is a 'library' in programming?",
+      "choices": [
+        "A place to store old code",
+        "A collection of pre-written code, functions, and routines that can be used by programmers to perform common tasks",
+        "A type of compiler",
+        "A hardware device"
+      ],
+      "answer": "A collection of pre-written code, functions, and routines that can be used by programmers to perform common tasks"
+    },
+    {
+      "id": "pc_q37",
+      "question": "What is 'null' or 'nil' often used to represent in programming?",
+      "choices": [
+        "The number zero",
+        "An empty string",
+        "The absence of a value or a non-existent object",
+        "A boolean false value"
+      ],
+      "answer": "The absence of a value or a non-existent object"
+    },
+    {
+      "id": "pc_q38",
+      "question": "What is a 'constant'?",
+      "choices": [
+        "A variable that changes frequently",
+        "A value that cannot be altered by the program during normal execution",
+        "A type of function",
+        "A comment that explains code"
+      ],
+      "answer": "A value that cannot be altered by the program during normal execution"
+    },
+    {
+      "id": "pc_q39",
+      "question": "What is 'iteration'?",
+      "choices": [
+        "The process of repeating a set of instructions",
+        "Defining a new class",
+        "Handling an error",
+        "Storing data in a variable"
+      ],
+      "answer": "The process of repeating a set of instructions"
+    },
+    {
+      "id": "pc_q40",
+      "question": "What is 'type casting' or 'type conversion'?",
+      "choices": [
+        "Changing the name of a variable",
+        "Converting a value from one data type to another",
+        "Deleting a variable",
+        "A method for sorting data"
+      ],
+      "answer": "Converting a value from one data type to another"
+    },
+    {
+      "id": "pc_q41",
+      "question": "What is a 'keyword' or 'reserved word' in a programming language?",
+      "choices": [
+        "A word that programmers can freely use for variable names",
+        "A word that has a special meaning to the compiler/interpreter and cannot be used as an identifier (e.g., variable name)",
+        "A comment",
+        "A type of data structure"
+      ],
+      "answer": "A word that has a special meaning to the compiler/interpreter and cannot be used as an identifier (e.g., variable name)"
+    },
+    {
+      "id": "pc_q42",
+      "question": "What is the primary purpose of a 'constructor' in OOP?",
+      "choices": [
+        "To destroy an object",
+        "To initialize a new object of a class",
+        "To define static methods",
+        "To perform calculations"
+      ],
+      "answer": "To initialize a new object of a class"
+    },
+    {
+      "id": "pc_q43",
+      "question": "What is 'Big O Notation' used for?",
+      "choices": [
+        "Describing the size of a program",
+        "Describing the performance or complexity of an algorithm (e.g., its execution time or space requirements)",
+        "A way to write comments",
+        "A naming convention for variables"
+      ],
+      "answer": "Describing the performance or complexity of an algorithm (e.g., its execution time or space requirements)"
+    },
+    {
+      "id": "pc_q44",
+      "question": "What is a 'pointer' (in languages like C/C++)?",
+      "choices": [
+        "A variable that stores a boolean value",
+        "A variable that stores the memory address of another variable",
+        "A type of loop",
+        "A graphical element on the screen"
+      ],
+      "answer": "A variable that stores the memory address of another variable"
+    },
+    {
+      "id": "pc_q45",
+      "question": "What is a 'framework' in software development?",
+      "choices": [
+        "A single function",
+        "A pre-written set of code and tools that provides a structure for developing software applications",
+        "A type of hardware",
+        "A specific algorithm"
+      ],
+      "answer": "A pre-written set of code and tools that provides a structure for developing software applications"
+    },
+    {
+      "id": "pc_q46",
+      "question": "What does it mean for a programming language to be 'statically typed'?",
+      "choices": [
+        "Variables can change type during execution",
+        "Variable types are checked at compile-time, and usually cannot change",
+        "It has no data types",
+        "It is very slow"
+      ],
+      "answer": "Variable types are checked at compile-time, and usually cannot change"
+    },
+    {
+      "id": "pc_q47",
+      "question": "What does it mean for a programming language to be 'dynamically typed'?",
+      "choices": [
+        "Variable types are checked only at compile-time",
+        "Variable types are checked at run-time, and can often change",
+        "It has no variables",
+        "It is very fast"
+      ],
+      "answer": "Variable types are checked at run-time, and can often change"
+    },
+    {
+      "id": "pc_q48",
+      "question": "What is a 'hash table' or 'dictionary' or 'map' data structure?",
+      "choices": [
+        "A sorted list of items",
+        "A data structure that stores key-value pairs",
+        "A LIFO stack",
+        "A FIFO queue"
+      ],
+      "answer": "A data structure that stores key-value pairs"
+    },
+    {
+      "id": "pc_q49",
+      "question": "What is 'refactoring' code?",
+      "choices": [
+        "Deleting old code",
+        "Restructuring existing computer code changing the factoring without changing its external behavior",
+        "Adding new features",
+        "Writing comments"
+      ],
+      "answer": "Restructuring existing computer code changing the factoring without changing its external behavior"
+    },
+    {
+      "id": "pc_q50",
+      "question": "What is an 'exception' in programming?",
+      "choices": [
+        "A normal part of program flow",
+        "An event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions",
+        "A type of variable",
+        "A successfully completed function"
+      ],
+      "answer": "An event, which occurs during the execution of a program, that disrupts the normal flow of the program's instructions"
+    }
+  ]
+}
