@@ -1,7 +1,8 @@
+import { getQuestions, getUid } from './database-client.js'
+
 let currentQuestion = 0
 let score = 0
 let quizQuestions = []
-let quizData = {}
 let timer
 let timeLeft = 15
 let selectedTopic = ''
@@ -20,45 +21,39 @@ const timerDisplay = document.getElementById('timer')
 const progressBar = document.querySelector('.progress-bar')
 const quizTopicDisplay = document.getElementById('quiz-topic')
 
-import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
-import {
-  getFirestore,
-  collection,
-  getDocs,
-  query,
-  where,
-} from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
-import { firebaseConfig } from './firebase-keys.js'
+// Replace your old JSON import with this:
+async function loadQuestions(category) {
+  const currentAppUID = getUid() // This should be your user ID or app instance ID
+  const allQuestions = await getQuestions(currentAppUID, category)
 
-const app = initializeApp(firebaseConfig)
-const db = getFirestore(app)
-
-async function getQuizQuestions(category) {
-  try {
-    const questionsRef = collection(db, 'questions')
-    const q = query(questionsRef, where('category', '==', category))
-
-    const querySnapshot = await getDocs(q)
-    const questions = []
-
-    querySnapshot.forEach((doc) => {
-      questions.push(doc.data())
-    })
-
-    return shuffleArray(questions).slice(0, 10)
-  } catch (error) {
-    console.error('Error getting questions: ', error)
+  if (allQuestions.length === 0) {
+    console.error('No questions found for category:', category)
     return []
   }
+
+  // Select 10 random questions from the returned questions
+  const shuffled = allQuestions.sort(() => 0.5 - Math.random())
+  return shuffled.slice(0, 10)
 }
 
+categoryCards.forEach((card) => {
+  card.addEventListener('click', () => {
+    categoryCards.forEach((c) => c.classList.remove('selected'))
+    card.classList.add('selected')
+    selectedTopic = card.dataset.topic
+    startBtn.disabled = false
+  })
+})
+
+// Modified to use async/await with Firebase
 startBtn.onclick = async () => {
   if (!selectedTopic) return alert('Please select a category.')
 
-  quizQuestions = await getQuizQuestions(selectedTopic)
+  quizQuestions = await loadQuestions(selectedTopic)
+
   if (quizQuestions.length === 0) {
     return alert(
-      'No questions found for this category. Please try another one.'
+      'No questions available for this category. Please try another one.'
     )
   }
 
@@ -188,15 +183,3 @@ function showFinalScore() {
   }
   quizContainer.appendChild(restartBtn)
 }
-
-categoryCards.forEach((card) => {
-  card.addEventListener('click', () => {
-    categoryCards.forEach((c) => c.classList.remove('selected'))
-
-    card.classList.add('selected')
-
-    selectedTopic = card.dataset.topic
-
-    startBtn.disabled = false
-  })
-})
