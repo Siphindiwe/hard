@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Whiz Quiz</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="start-screen">
+      <h2>Pick Categories</h2>
+      <div class="categories-container">
+        <div class="category-card" data-topic="Computer Fundamentals">
+          Computer Fundamentals
+        </div>
+        <div class="category-card" data-topic="Programming Concepts">
+          Programming Concepts
+        </div>
+        <div class="category-card" data-topic="Web Development">
+          Web Development
+        </div>
+      </div>
+      <button id="start-btn">Start Quiz</button>
+    </div>
+
+    <div id="quiz-container" style="display: none">
+      <h1 class="quiz-title">Tech Whiz Quiz</h1>
+      <h2 class="quiz-subtitle" id="quiz-topic">HTML & CSS Basics</h2>
+      <h3 id="question-number">Question 1 of 6</h3>
+      <p class="question-text" id="question-text">Loading question...</p>
+      <div class="options" id="options-container"></div>
+
+      <p id="timer">Time Left: 15s</p>
+      <div class="progress-container">
+        <div class="progress-bar"></div>
+      </div>
+
+      <p class="score" id="score">Score: 0</p>
+      <button id="next-btn" class="next-btn" disabled>Next Question</button>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
