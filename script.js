@@ -20,29 +20,48 @@ const timerDisplay = document.getElementById('timer')
 const progressBar = document.querySelector('.progress-bar')
 const quizTopicDisplay = document.getElementById('quiz-topic')
 
-fetch('quiz-data.json')
-  .then((response) => response.json())
-  .then((data) => {
-    quizData = data
-  })
-  .catch((error) => {
-    console.error('Error loading quiz data:', error)
-  })
+import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-app.js'
+import {
+  getFirestore,
+  collection,
+  getDocs,
+  query,
+  where,
+} from 'https://www.gstatic.com/firebasejs/9.6.10/firebase-firestore.js'
+import { firebaseConfig } from './firebase-keys.js'
 
-categoryCards.forEach((card) => {
-  card.addEventListener('click', () => {
-    categoryCards.forEach((c) => c.classList.remove('selected'))
+const app = initializeApp(firebaseConfig)
+const db = getFirestore(app)
 
-    card.classList.add('selected')
-    selectedTopic = card.dataset.topic
-    startBtn.disabled = false
-  })
-})
+async function getQuizQuestions(category) {
+  try {
+    const questionsRef = collection(db, 'questions')
+    const q = query(questionsRef, where('category', '==', category))
 
-startBtn.onclick = () => {
+    const querySnapshot = await getDocs(q)
+    const questions = []
+
+    querySnapshot.forEach((doc) => {
+      questions.push(doc.data())
+    })
+
+    return shuffleArray(questions).slice(0, 10)
+  } catch (error) {
+    console.error('Error getting questions: ', error)
+    return []
+  }
+}
+
+startBtn.onclick = async () => {
   if (!selectedTopic) return alert('Please select a category.')
 
-  quizQuestions = shuffleArray(quizData[selectedTopic]).slice(0, 10)
+  quizQuestions = await getQuizQuestions(selectedTopic)
+  if (quizQuestions.length === 0) {
+    return alert(
+      'No questions found for this category. Please try another one.'
+    )
+  }
+
   currentQuestion = 0
   score = 0
 
