@@ -22,12 +22,12 @@ const progressBar = document.querySelector('.progress-bar')
 const quizTopicDisplay = document.getElementById('quiz-topic')
 
 // Replace your old JSON import with this:
-async function loadQuestions(category) {
+async function loadQuestions(categoryKey) {
   const currentAppUID = getUid() // This should be your user ID or app instance ID
-  const allQuestions = await getQuestions(currentAppUID, category)
+  const allQuestions = await getQuestions(currentAppUID, categoryKey)
 
   if (allQuestions.length === 0) {
-    console.error('No questions found for category:', category)
+    console.error('No questions found for category:', categoryKey)
     return []
   }
 
